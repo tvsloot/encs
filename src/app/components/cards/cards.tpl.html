@@ -1,0 +1,63 @@
+<div class="intro">
+  <div class="container">
+    <h1>{{ 'cardsHEADER1' | translate }}</h1>
+    <div class="control-bar">
+      <div class="control-buttons">
+        <div class="control-category-filter" uib-dropdown is-open="status.isopen" auto-close="disabled">
+          <button id="category-menu" type="button" class="btn-filter" uib-dropdown-toggle ng-disabled="disabled">
+            <i class="fa fa-sliders" aria-hidden="true"></i>
+            {{ 'controlsCAT' | translate }}
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>
+          <ul class="category-menu-items" uib-dropdown-menu role="menu" aria-labelledby="category-menu">
+            <li ng-repeat="category in getCategories()" role="menuitemcheckbox">
+              <label>
+                <input type="checkbox" ng-model="filter[category]" />
+                {{ category }}
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="control-language-toggle">
+          <button type="button" ng-click="isFlipped=!isFlipped" class="btn-toggle">
+            <i class="fa fa-exchange" aria-hidden="true"></i>
+            {{ 'controlsLANG' | translate }}
+          </button>
+        </div>
+        <div class="control-deck-refresh">
+          <button type="button" ng-click="reloadRoute()" class="btn-refresh">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+            {{ 'controlsRESET' | translate }}
+          </button>
+        </div>
+      </div>
+      <div class="control-search">
+        <input type="search" ng-model="query" placeholder="{{ 'controlsSEARCH' | translate }}" class="form-control" aria-label="search_cards" aria-describedby="search-label">
+        <span class="input-group-addon" id="search-label">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="vocab-list card-list">
+    <div ng-repeat="category in (list | filter:filterByCategory) as filteredList">
+      <div ng-repeat="item in category.contents | filter:query" class="card-list-item">
+        <button class="btn-remove" ng-click="remove(category.contents,$index)">
+          <i class="fa fa-times" aria-hidden="true"></i>
+          <span class="sr-only">remove</span>
+        </button>
+        <div class="card" ng-click="marked=true; isFlipped=!isFlipped" ng-class="{'marked':marked, 'flipped':isFlipped}">
+          <div class="face front">
+            <div>{{item.cs}}</div>
+          </div>
+          <div class="face back">
+            <div>{{item.en}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

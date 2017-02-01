@@ -1,0 +1,470 @@
+[
+  {
+    "category":"social",
+    "contents":[
+      {
+        "en": "cheers",
+        "cs": "Na zdraví"
+      }
+    ]
+  },
+  {
+    "category":"food and drink",
+    "contents":[
+      {
+        "en": "food",
+        "cs": "jídlo"
+      }
+    ]
+  },
+  {
+    "category":"numbers",
+    "contents":[
+      {
+        "en": "one",
+        "cs": "jedna"
+      },
+      {
+        "en": "two",
+        "cs": "dva"
+      },
+      {
+        "en": "three",
+        "cs": "tři"
+      },
+      {
+        "en": "four",
+        "cs": "čtyři"
+      },
+      {
+        "en": "five",
+        "cs": "pět"
+      },
+      {
+        "en": "six",
+        "cs": "šest"
+      },
+      {
+        "en": "seven",
+        "cs": "sedm"
+      },
+      {
+        "en": "eight",
+        "cs": "osm"
+      },
+      {
+        "en": "nine",
+        "cs": "devět"
+      },
+      {
+        "en": "ten",
+        "cs": "deset"
+      }
+    ]
+  },
+  {
+    "category":"frequently used: 1-100",
+    "contents":[
+      {
+          "en": "be",
+          "cs": "být"
+      },
+      {
+          "en": "and",
+          "cs": "a"
+      },
+      {
+          "en": "with",
+          "cs": "s,se"
+      },
+      {
+          "en": "in",
+          "cs": "v"
+      },
+      {
+          "en": "on",
+          "cs": "na"
+      },
+      {
+          "en": "this",
+          "cs": "ten"
+      },
+      {
+          "en": "he",
+          "cs": "on"
+      },
+      {
+          "en": "that",
+          "cs": "že"
+      },
+      {
+          "en": "with",
+          "cs": "se,s"
+      },
+      {
+          "en": "from",
+          "cs": "z"
+      },
+      {
+          "en": "who",
+          "cs": "kdo,který"
+      },
+      {
+          "en": "have",
+          "cs": "mít"
+      },
+      {
+          "en": "to",
+          "cs": "do,k"
+      },
+      {
+          "en": "I",
+          "cs": "já"
+      },
+      {
+          "en": "about",
+          "cs": "o"
+      },
+      {
+          "en": "to",
+          "cs": "k,do"
+      },
+      {
+          "en": "and",
+          "cs": "i"
+      },
+      {
+          "en": "his",
+          "cs": "jeho"
+      },
+      {
+          "en": "but",
+          "cs": "ale"
+      },
+      {
+          "en": "its",
+          "cs": "svůj"
+      },
+      {
+          "en": "as",
+          "cs": "jako"
+      },
+      {
+          "en": "for",
+          "cs": "za"
+      },
+      {
+          "en": "can",
+          "cs": "moci,umět"
+      },
+      {
+          "en": "year",
+          "cs": "rok"
+      },
+      {
+          "en": "for",
+          "cs": "pro"
+      },
+      {
+          "en": "so",
+          "cs": "tak"
+      },
+      {
+          "en": "after",
+          "cs": "po"
+      },
+      {
+          "en": "this",
+          "cs": "tento"
+      },
+      {
+          "en": "what",
+          "cs": "co,který"
+      },
+      {
+          "en": "when",
+          "cs": "když"
+      },
+      {
+          "en": "every",
+          "cs": "všechen"
+      },
+      {
+          "en": "already",
+          "cs": "už"
+      },
+      {
+          "en": "as",
+          "cs": "jak"
+      },
+      {
+          "en": "that",
+          "cs": "aby"
+      },
+      {
+          "en": "from",
+          "cs": "od"
+      },
+      {
+          "en": "or",
+          "cs": "nebo"
+      },
+      {
+          "en": "say",
+          "cs": "říci"
+      },
+      {
+          "en": "one",
+          "cs": "jeden"
+      },
+      {
+          "en": "just",
+          "cs": "jen"
+      },
+      {
+          "en": "my",
+          "cs": "můj"
+      },
+      {
+          "en": "that",
+          "cs": "jenž"
+      },
+      {
+          "en": "human",
+          "cs": "člověk"
+      },
+      {
+          "en": "you",
+          "cs": "ty"
+      },
+      {
+          "en": "state",
+          "cs": "stát"
+      },
+      {
+          "en": "at",
+          "cs": "u"
+      },
+      {
+          "en": "have to",
+          "cs": "muset"
+      },
+      {
+          "en": "large",
+          "cs": "velký"
+      },
+      {
+          "en": "want",
+          "cs": "chtít"
+      },
+      {
+          "en": "also",
+          "cs": "také"
+      },
+      {
+          "en": "when",
+          "cs": "až"
+      },
+      {
+          "en": "than",
+          "cs": "než"
+      },
+      {
+          "en": "still",
+          "cs": "ještě"
+      },
+      {
+          "en": "at",
+          "cs": "při"
+      },
+      {
+          "en": "go",
+          "cs": "jít"
+      },
+      {
+          "en": "then",
+          "cs": "pak"
+      },
+      {
+          "en": "before",
+          "cs": "před"
+      },
+      {
+          "en": "two",
+          "cs": "dva"
+      },
+      {
+          "en": "however",
+          "cs": "však"
+      },
+      {
+          "en": "neither",
+          "cs": "ani"
+      },
+      {
+          "en": "know",
+          "cs": "vědět"
+      },
+      {
+          "en": "new",
+          "cs": "nový"
+      },
+      {
+          "en": "much",
+          "cs": "hodně"
+      },
+      {
+          "en": "according to",
+          "cs": "podle"
+      },
+      {
+          "en": "other",
+          "cs": "další"
+      },
+      {
+          "en": "whole",
+          "cs": "celý"
+      },
+      {
+          "en": "other",
+          "cs": "jiný"
+      },
+      {
+          "en": "first",
+          "cs": "první"
+      },
+      {
+          "en": "between",
+          "cs": "mezi"
+      },
+      {
+          "en": "give",
+          "cs": "dát"
+      },
+      {
+          "en": "here",
+          "cs": "tady"
+      },
+      {
+          "en": "day",
+          "cs": "den"
+      },
+      {
+          "en": "PUSH",
+          "cs": "tam"
+      },
+      {
+          "en": "where",
+          "cs": "kde"
+      },
+      {
+          "en": "time",
+          "cs": "doba"
+      },
+      {
+          "en": "each",
+          "cs": "každý"
+      },
+      {
+          "en": "second",
+          "cs": "druhý"
+      },
+      {
+          "en": "place",
+          "cs": "místo"
+      },
+      {
+          "en": "good",
+          "cs": "dobrý"
+      },
+      {
+          "en": "such",
+          "cs": "takový"
+      },
+      {
+          "en": "page",
+          "cs": "strana"
+      },
+      {
+          "en": "because",
+          "cs": "protože"
+      },
+      {
+          "en": "nothing",
+          "cs": "nic"
+      },
+      {
+          "en": "start",
+          "cs": "začít"
+      },
+      {
+          "en": "something",
+          "cs": "něco"
+      },
+      {
+          "en": "life",
+          "cs": "život"
+      },
+      {
+          "en": "see",
+          "cs": "vidět"
+      },
+      {
+          "en": "say",
+          "cs": "říct"
+      },
+      {
+          "en": "country",
+          "cs": "země"
+      },
+      {
+          "en": "child",
+          "cs": "dítě"
+      },
+      {
+          "en": "small",
+          "cs": "malý"
+      },
+      {
+          "en": "No",
+          "cs": "ne"
+      },
+      {
+          "en": "alone",
+          "cs": "sám"
+      },
+      {
+          "en": "without",
+          "cs": "bez"
+      },
+      {
+          "en": "hand",
+          "cs": "ruka"
+      },
+      {
+          "en": "whose",
+          "cs": "či"
+      },
+      {
+          "en": "world",
+          "cs": "svět"
+      },
+      {
+          "en": "get",
+          "cs": "dostat"
+      },
+      {
+          "en": "work",
+          "cs": "práce"
+      },
+      {
+          "en": "some",
+          "cs": "nějaký"
+      },
+      {
+          "en": "therefore",
+          "cs": "proto"
+      }
+    ]
+  }
+]
