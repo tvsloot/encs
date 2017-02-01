@@ -1,0 +1,29 @@
+<a href="#content" target="_self" class="sr-only sr-only-focusable">
+  Skip to main content
+</a>
+<nav class="navbar" ng-controller="HeaderCtrl">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" ng-click="isNavCollapsed = !isNavCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">en|cs</a>
+      <span class="{{ 'LANG' | translate }}-active">
+        <button role="button" ng-click="changeLanguage('en')" class="btn-language btn-language-en">
+          <span class="sr-only">english</span>
+        </button>
+        <button role="button" ng-click="changeLanguage('cs')" class="btn-language btn-language-cs">
+          <span class="sr-only">czech</span>
+        </button>
+      </span>
+    </div>
+    <div class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+      <ul class="nav navbar-nav navbar-right">
+        <li ng-class="{ active: isActive('/flashcards')}"><a href="/flashcards">{{ 'headerFLASHCARDS' | translate }}</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
