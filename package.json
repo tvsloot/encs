@@ -2,7 +2,7 @@
   "author": "Travis Vander Sloot",
   "name": "encs",
   "homepage": "http://encs.cz",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/tvsloot/encs.git"
