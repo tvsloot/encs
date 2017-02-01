@@ -13,11 +13,11 @@ angular.module('encs', [
   'templates.app'
 ]);
 
-angular.module('encs').run(function ($rootScope, $translate) {
+angular.module('encs').run(['$rootScope', '$translate', function ($rootScope, $translate) {
   $rootScope.$on('$translatePartialLoaderStructureChanged', function () {
     $translate.refresh();
   });
-});
+}]);
 
 angular.module('encs').config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $locationProvider.html5Mode({
